@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="src/images/Logo/LogoWhite.svg" />
+    <title>Website-Contacts</title>
+    <link rel="stylesheet" href="styles/design.css" />
+    <link rel="stylesheet" href="styles/contacts.css" />
+  </head>
+  <body>
+    <!-- ?navbar -->
+    <div class="hero">
+      <!-- ?navigation bar -->
+      <nav class="navbar container flex-row">
+        <div class="navbar_logo">
+          <img src="src/images/Logo/LogoWhite.svg" alt="" />
+        </div>
+        <div class="navbar_menu flex-row hidden">
+          <a href="index.html" class="navbar_menu_1">Home</a
+          ><a href="portfolio.html" class="navbar_menu_2">Portfolio</a
+          ><a href="services.html" class="navbar_menu_3">Services</a
+          ><a href="contacts.html" class="navbar_menu_4">Contact</a>
+        </div>
+        <div class="navbar_icons">
+          <i class="bi bi-list"></i>
+          <i class="bi bi-x-lg hide"></i>
+        </div>
+      </nav>
+    </div>
+
+    <!-- ?main -->
+    <div class="one container flex-coloumn">
+      <div class="one_label label green-full">contacts</div>
+      <div class="one_title title black-full">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit
+      </div>
+    </div>
+    <div class="two container grid">
+      <div class="two_left">
+        <form action="">
+          <label for="name">Name</label>
+          <input placeholder="Enter your name" type="text" id="name" />
+
+          <label for="email">Email</label>
+          <input placeholder="Enter Your email" type="email" id="email" />
+
+          <label for="message">Message</label>
+          <textarea
+            placeholder="your message here"
+            name=""
+            id="message"
+            cols="30"
+            rows="6"
+          ></textarea>
+          <button type="submit" class="submit_btn black-btn">Submit</button>
+        </form>
+      </div>
+      <img
+        src="src/images/Contact/map.svg"
+        alt=""
+        class="two_right responsive-image"
+      />
+    </div>
+    <!-- ?footer -->
+    <div class="hero">
+      <footer class="container flex-row">
+        <div class="footer_socials flex-row">
+          <img
+            src="src/images/socials/facebook.svg"
+            alt=""
+            class="footer_socials_1"
+          />
+          <img
+            src="src/images/socials/instagram.svg"
+            alt=""
+            class="footer_socials_2"
+          />
+          <img
+            src="src/images/socials/pinterest.svg"
+            alt=""
+            class="footer_socials_3"
+          />
+          <img
+            src="src/images/socials/tiktok.svg"
+            alt=""
+            class="footer_socials_4"
+          />
+          <img
+            src="src/images/socials/twitter.svg"
+            alt=""
+            class="footer_socials_5"
+          />
+          <img
+            src="src/images/socials/whatsapp.svg"
+            alt=""
+            class="footer_socials_6"
+          />
+          <img
+            src="src/images/socials/youtube.svg"
+            alt=""
+            class="footer_socials_7"
+          />
+        </div>
+        <div class="footer_copyright white-full">
+          © Start, 2022. All rights reserved.
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="src/main.js"></script>
+</html>
